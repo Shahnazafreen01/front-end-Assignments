@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Security Settings</title>
+
+<link rel="stylesheet" href="security.css">
+
+<!-- Font Awesome -->
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+</head>
+<body>
+
+<div class="wrapper">
+
+    <!-- Fixed Sidebar -->
+    <aside class="sidebar">
+
+        <div class="profile">
+            <div class="avatar">DU</div>
+
+            <div>
+                <h4>Demo User</h4>
+                <p>demo@webtech.practice</p>
+            </div>
+        </div>
+
+        <div class="title">DASHBOARD</div>
+
+        <ul>
+            <li>Overview</li>
+            <li>Profile Settings</li>
+            <li class="active">Security</li>
+            <li>Notification</li>
+        </ul>
+
+        <div class="title">QUICK ACTION</div>
+
+        <ul>
+            <li>Help & Support</li>
+        </ul>
+
+        <div class="bottom">
+
+            <div class="title">ACCOUNT</div>
+
+            <ul>
+                <li>Sign Out</li>
+            </ul>
+
+        </div>
+
+    </aside>
+
+    <!-- Right Section -->
+    <div class="main">
+
+        <header>
+            WebTech Practice Dashboard
+        </header>
+
+        <div class="content">
+
+            <div class="card">
+
+                <h2>Security Settings</h2>
+
+                <h4>Security Settings</h4>
+
+                <p class="desc">
+                    Keep your account secure by using a strong password and changing it regularly.
+                </p>
+
+                <form id="passwordForm">
+
+                    <div class="grid">
+
+                        <div class="input-box">
+                            <label>Current Password</label>
+                            <input type="password"
+                            placeholder="Enter current password">
+                        </div>
+
+                        <div class="input-box">
+                            <label>New Password</label>
+                            <input type="password"
+                            placeholder="Minimum 6 characters">
+                        </div>
+
+                    </div>
+
+                    <div class="input-box">
+                        <label>Confirm New Password</label>
+                        <input type="password"
+                        placeholder="Re-enter new password">
+                    </div>
+
+                    <div class="buttons">
+
+                        <button type="reset" class="clear">
+                            Clear
+                        </button>
+
+                        <button type="submit" class="save">
+                            Update Password
+                        </button>
+
+                    </div>
+
+                </form>
+
+                <hr>
+
+                <h4>Security Information</h4>
+
+                <div class="info">
+
+                    <div class="info-card">
+
+                        <i class="fa-regular fa-calendar"></i>
+
+                        <h3>Account Created</h3>
+
+                        <p>8/13/2025</p>
+
+                    </div>
+
+                    <div class="info-card">
+
+                        <i class="fa-regular fa-calendar"></i>
+
+                        <h3>Last Updated</h3>
+
+                        <p>Never updated</p>
+
+                    </div>
+
+                    <div class="info-card">
+
+                        <i class="fa-regular fa-calendar"></i>
+
+                        <h3>Session</h3>
+
+                        <p>Current browser session active</p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+<script src="security.js"></script>
+
+</body>
+</html>

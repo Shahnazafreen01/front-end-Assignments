@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Profile Settings</title>
+<link rel="stylesheet" href="profile setting.css">
+</head>
+<body>
+
+<div class="dashboard">
+
+    <!-- Sidebar -->
+    <aside class="sidebar">
+
+        <div class="profile">
+            <div class="avatar">DU</div>
+            <div>
+                <h4>Demo User</h4>
+                <p>demo@webtech.practice</p>
+            </div>
+        </div>
+
+        <h5>DASHBOARD</h5>
+
+        <ul>
+            <li>Overview</li>
+            <li class="active">Profile Settings</li>
+            <li>Security</li>
+        </ul>
+
+        <h5>QUICK ACTION</h5>
+
+        <ul>
+            <li>Help & Support</li>
+        </ul>
+
+        <div class="bottom">
+            <h5>ACCOUNT</h5>
+            <ul>
+                <li>Sign Out</li>
+            </ul>
+        </div>
+
+    </aside>
+
+    <!-- Main -->
+
+    <main>
+
+        <header>
+            WebTech Practice Dashboard
+        </header>
+
+        <div class="container">
+
+            <div class="card">
+
+                <h2>Profile Settings</h2>
+
+                <h3>Personal Information</h3>
+
+                <form id="profileForm">
+
+                    <div class="grid">
+
+                        <div class="input-group">
+                            <label>Full Name</label>
+                            <input type="text" value="Demo User">
+                        </div>
+
+                        <div class="input-group">
+                            <label>Date of Birth</label>
+                            <input type="date">
+                        </div>
+
+                        <div class="input-group">
+                            <label>Email Address</label>
+                            <input type="email" value="demo@gmail.com">
+                        </div>
+
+                        <div class="input-group">
+                            <label>Phone Number</label>
+                            <input type="tel" value="+91 9876543210">
+                        </div>
+
+                    </div>
+
+                    <h3>Address Information</h3>
+
+                    <div class="input-group">
+                        <label>Street Address</label>
+                        <textarea rows="4">Enter your complete address</textarea>
+                    </div>
+
+                    <div class="grid">
+
+                        <div class="input-group">
+                            <label>PIN Code</label>
+                            <input type="text" value="123456">
+                        </div>
+
+                        <div class="input-group">
+                            <label>City</label>
+                            <input type="text" value="Ranchi">
+                        </div>
+
+                        <div class="input-group">
+                            <label>Country</label>
+                            <input type="text" value="India">
+                        </div>
+
+                        <div class="input-group">
+                            <label>GitHub Profile</label>
+                            <input type="url" value="https://github.com/username">
+                        </div>
+
+                    </div>
+
+                    <div class="buttons">
+                        <button type="reset" class="cancel">
+                            Cancel Changes
+                        </button>
+
+                        <button type="submit" class="save">
+                            Save Changes
+                        </button>
+                    </div>
+
+                </form>
+
+            </div>
+
+        </div>
+
+    </main>
+
+</div>
+
+<script src="profile setting.js"></script>
+
+</body>
+</html>

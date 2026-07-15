@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+        <link rel="stylesheet" href="Dashboard.css">
+</head>
+<body>
+
+<div class="container">
+
+    <!-- Sidebar -->
+    <aside class="sidebar">
+        <div class="profile">
+            <div class="avatar">DU</div>
+            <div>
+                <h4>Demo User</h4>
+                <p>demo@webtech.practice</p>
+            </div>
+        </div>
+
+        <div class="menu-title">DASHBOARD</div>
+
+        <ul class="menu">
+            <li class="active"><i class="fa-solid fa-eye"></i> Overview</li>
+            <li><i class="fa-solid fa-user"></i> Profile Settings</li>
+            <li><i class="fa-solid fa-lock"></i> Security</li>
+            <li><i class="fa-solid fa-bell"></i> Notification</li>
+        </ul>
+
+        <div class="menu-title">QUICK ACTION</div>
+
+        <ul class="menu">
+            <li><i class="fa-solid fa-circle-question"></i> Help & Support</li>
+        </ul>
+
+        <div class="bottom">
+            <div class="menu-title">ACCOUNT</div>
+            <ul class="menu">
+                <li><i class="fa-solid fa-right-from-bracket"></i> Sign out</li>
+            </ul>
+        </div>
+    </aside>
+
+    <!-- Main -->
+    <main class="main">
+
+        <!-- Topbar -->
+        <header class="topbar">
+            <h3>WebTech Practice Dashboard</h3>
+        </header>
+
+        <!-- Content -->
+        <section class="content">
+
+            <div class="dashboard">
+
+                <h2>Welcome back, Demo User</h2>
+
+                <p class="subtitle">
+                    Manage your profile settings and account preferences.
+                    Your data is securely stored in your browser's localStorage.
+                </p>
+
+                <!-- Cards -->
+                <div class="cards">
+
+                    <div class="card">
+                        <h4>Theme</h4>
+                        <p>Dark/Light mode persisted across sessions</p>
+                        <div class="progress">
+                            <div class="fill"></div>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <h4>Authentication</h4>
+                        <p>Secure session stored in browser storage</p>
+                        <div class="progress">
+                            <div class="fill"></div>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <h4>Profile</h4>
+                        <p>20% profile completed (1/5 fields)</p>
+                        <div class="progress">
+                            <div class="fill"></div>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <h4>Security</h4>
+                        <p>Password protection and account security</p>
+                        <div class="progress">
+                            <div class="fill"></div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <h4 class="quick-title">Quick Actions</h4>
+
+                <div class="actions">
+
+                    <button class="action-btn">
+                        <strong>Edit Profile</strong>
+                        <span>Update your personal information</span>
+                    </button>
+
+                    <button class="action-btn">
+                        <strong>Change Password</strong>
+                        <span>Update your account security</span>
+                    </button>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+</div>
+
+</body>
+</html>
